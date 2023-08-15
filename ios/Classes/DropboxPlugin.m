@@ -155,7 +155,7 @@ FlutterMethodChannel* channel;
               
         } else {
           NSLog(@"%@\n%@\n", routeError, networkError);
-            result(@[]);
+            result(@["Error"]);
         }
       }];
 
